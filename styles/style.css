@@ -59,6 +59,11 @@
   content: " \2192";
 }
 
+.header__link:hover {
+  padding-left: 10px;
+  transition: padding-left .2s;
+}
+
 .header__main-illustration {
   background-size: contain;
   background-repeat: no-repeat;
@@ -231,6 +236,11 @@
   content: " \2192";
 }
 
+.feinman__link:hover {
+  transform: translateX(10px);
+  transition: transform .2s;
+}
+
 /*===KAUFMAN==============================================*/
 
 .kaufman {
@@ -336,6 +346,10 @@
   font-size: 18px;
   text-decoration: none;
   color: white;
+}
+
+.footer__column-links:hover {
+  text-decoration: underline;
 }
 
 .footer__columns_content_social {
