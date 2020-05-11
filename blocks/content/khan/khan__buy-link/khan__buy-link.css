@@ -1,4 +1,5 @@
 .khan__buy-link {
+  height: fit-content;
   margin-left: 48px;
   line-height: 42px;
   font-size: 30px;
@@ -8,4 +9,8 @@
 
 .khan__buy-link::after {
   content: " \2192";
+}
+
+.khan__buy-link:hover {
+  text-decoration: underline;
 }
